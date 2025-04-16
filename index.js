@@ -10,3 +10,4 @@ function launchab() {
   iframe.src = self.location
   tab.document.body.appendChild(iframe)
   window.parent.window.location.replace(localStorage.getItem('panicurl') || 'https://drive.google.com/drive/u/0/home?lfhs=2')
+}
